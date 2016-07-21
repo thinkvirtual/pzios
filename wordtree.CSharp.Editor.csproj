@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D21EBECD-9272-372C-7900-C15B3AA58A71}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>5.3.5f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;UNITY_64;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT;PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_1;PLAYMAKER_1_8_OR_NEWER</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;UNITY_64;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT;PLAYMAKER;PLAYMAKER_1_8;PLAYMAKER_1_8_1;PLAYMAKER_1_8_OR_NEWER</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.EditorTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEditor.EditorTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\UnityAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TreeEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.TreeEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>Library\UnityAssemblies\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="JMOAssets">
+      <HintPath>Assets\JMO Assets\Editor\JMOAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="ConditionalExpression">
+      <HintPath>Assets\PlayMaker\ConditionalExpression.dll</HintPath>
+    </Reference>
+    <Reference Include="ConditionalExpressionEditor">
+      <HintPath>Assets\PlayMaker\Editor\ConditionalExpressionEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayMakerEditor">
+      <HintPath>Assets\PlayMaker\Editor\PlayMakerEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayMakerEditorResources">
+      <HintPath>Assets\PlayMaker\Editor\PlayMakerEditorResources.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayMakerEditor.de.resources">
+      <HintPath>Assets\PlayMaker\Editor\de\PlayMakerEditor.de.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayMakerEditor.es-ES.resources">
+      <HintPath>Assets\PlayMaker\Editor\es-ES\PlayMakerEditor.es-ES.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayMakerEditor.fr.resources">
+      <HintPath>Assets\PlayMaker\Editor\fr\PlayMakerEditor.fr.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayMakerEditor.it.resources">
+      <HintPath>Assets\PlayMaker\Editor\it\PlayMakerEditor.it.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayMakerEditor.ja.resources">
+      <HintPath>Assets\PlayMaker\Editor\ja\PlayMakerEditor.ja.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayMakerEditor.nl.resources">
+      <HintPath>Assets\PlayMaker\Editor\nl\PlayMakerEditor.nl.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayMakerEditor.pt-BR.resources">
+      <HintPath>Assets\PlayMaker\Editor\pt-BR\PlayMakerEditor.pt-BR.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayMakerEditor.sv-SE.resources">
+      <HintPath>Assets\PlayMaker\Editor\sv-SE\PlayMakerEditor.sv-SE.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayMakerEditor.zh-CN.resources">
+      <HintPath>Assets\PlayMaker\Editor\zh-CN\PlayMakerEditor.zh-CN.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayMakerEditor.zh-TW.resources">
+      <HintPath>Assets\PlayMaker\Editor\zh-TW\PlayMakerEditor.zh-TW.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayMaker">
+      <HintPath>Assets\Plugins\PlayMaker\PlayMaker.dll</HintPath>
+    </Reference>
+    <Reference Include="LocalDB">
+      <HintPath>Assets\SQLiteDatabase\Plugins\LocalDB.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Data.Sqlite">
+      <HintPath>Assets\SQLiteDatabase\Plugins\Mono.Data.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="wordtree.CSharp.Plugins.csproj">
+      <Project>{7E175CC1-4D16-731C-E0D4-1DAB9C39DF16}</Project>
+      <Name>wordtree.CSharp.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="wordtree.CSharp.csproj">
+      <Project>{5598C0D1-6D21-09EA-2517-26E96E7080F3}</Project>
+      <Name>wordtree.CSharp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\EasyTouchInspector.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\EasyTouchMenu.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\EasyTouchTriggerInspector.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\EasyTouchWelcomeScreen.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\EasytouchHierachyCallBack.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\HTGuiTools.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickDragInspector.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickEnterExitInspector.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickLongTapInspector.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickPinchInspector.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickSwipeInspector.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickTapInspector.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickTouchInspector.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouch\Plugins\Editor\QuickTwistInspector.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCAreaInspector.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCAxisInspector.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCButtonInspector.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCDPadInspector.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCGuiTools.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCJoystickInspector.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCMenu.cs" />
+    <Compile Include="Assets\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCTouchPadInspector.cs" />
+    <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+    <Compile Include="Assets\Gamelogic\Plugins\Common\Editor\GLEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Plugins\Common\Editor\GLEditorGUI.cs" />
+    <Compile Include="Assets\Gamelogic\Plugins\Common\Editor\GLSerializedProperty.cs" />
+    <Compile Include="Assets\Gamelogic\Plugins\Common\Editor\PropertyDrawers\InspectorFlagsDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Plugins\Common\Editor\PropertyDrawers\MinMaxFloatPropertyDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Plugins\Common\Editor\PropertyDrawers\NonNegativeDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Plugins\Common\Editor\PropertyDrawers\PositivePropertyDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Plugins\Common\Editor\StringExtensions.cs" />
+    <Compile Include="Assets\Gamelogic\Plugins\Grids\Unity\Editor\Editors\DiamondTileGridEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Plugins\Grids\Unity\Editor\Editors\GLEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Plugins\Grids\Unity\Editor\Editors\PolarRectTileGridEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Plugins\Grids\Unity\Editor\Editors\RectTileGridEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Plugins\Grids\Unity\Editor\Editors\SimpleGridEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Plugins\Grids\Unity\Editor\Editors\SpriteCellEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Plugins\Grids\Unity\Editor\GLGridsEditorExtensions.cs" />
+    <Compile Include="Assets\Gamelogic\Plugins\Grids\Unity\Editor\PropertyDrawers\ColorFunctionPropertyDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Plugins\Grids\Unity\Editor\PropertyDrawers\InspectableVectorPointPropertyDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Plugins\Words\Unity\Editor\AlphabetSettingsDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Plugins\Words\Unity\Editor\DictionaryFilter.cs" />
+    <Compile Include="Assets\Gamelogic\Plugins\Words\Unity\Editor\DictionarySettingsDrawer.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX Easy Editor\Editor\CFXEasyEditor.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Editor\CFX_InspectorHelpEditor.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Editor\CFX_SpawnSystemEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\BaseClasses\OnAnimatorUpdateActionEditorBase.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorAnimatorRootActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorBoneGameObjectActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorBoolActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorCurrentStateInfoActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorCurrentStateInfoIsNameActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorCurrentStateInfoIsTagActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorCurrentTransitionInfoActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorCurrentTransitionInfoIsNameActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorCurrentTransitionInfoIsUserNameActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorDeltaActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorFloatActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorGravityWeightActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorIKGoalActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorIntActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorIsLayerInTransitionActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorIsMatchingTargetActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorLayerWeightActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorNextStateInfoActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorPivotActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorSpeedActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorTargetActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\SetAnimatorBoolActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\SetAnimatorFloatActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\SetAnimatorIntActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Editor\GetDistanceEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Editor\LookAtActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Editor\MoveTowardsActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Editor\SetCameraFOVActionEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Quaternion\Editor\GetQuaternionEulerAnglesCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Quaternion\Editor\GetQuaternionFromRotationCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Quaternion\Editor\GetQuaternionMultipliedByQuaternionCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Quaternion\Editor\GetQuaternionMultipliedByVectorCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Quaternion\Editor\QuaternionAngleAxisCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Quaternion\Editor\QuaternionCustomEditorBase.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Quaternion\Editor\QuaternionEulerCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Quaternion\Editor\QuaternionInverseCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Quaternion\Editor\QuaternionLerpCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Quaternion\Editor\QuaternionLookRotationCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Quaternion\Editor\QuaternionLowPassFilterCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Quaternion\Editor\QuaternionRotateTowardsCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\Quaternion\Editor\QuaternionSlerpCustomEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\AboutWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\AssetGUIDs.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\ContextToolWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\EditorStartupPrefs.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\FsmActionWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\FsmComponentInspector.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\FsmEditorHelpers.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\FsmEditorWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\FsmErrorWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\FsmEventsWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\FsmGlobalsWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\FsmLogWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\FsmSelectorWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\FsmStateWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\FsmTemplate.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\FsmTemplateEditor.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\FsmTemplateWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\FsmTimelineWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerAutoUpdater.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerBugReportWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerBuildCallbacks.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerCustomActionWizard.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerDefines.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerEditorStartup.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerGUIInspector.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerGlobalsInspector.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerMainMenu.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerProjectTools.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerUpdater.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerUpgradeGuide.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerUpgradeTools.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PlayMakerWelcomeWindow.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\PreUpdateChecker.cs" />
+    <Compile Include="Assets\PlayMaker\Editor\ReportWindow.cs" />
+    <Compile Include="Assets\SimpleSelect\Editor\SelectionStarterInspector.cs" />
+    <Compile Include="Assets\SimpleSelect\Editor\SimpleCameraMoverInspector.cs" />
+    <Compile Include="Assets\SteamVR\Editor\SteamVR_Editor.cs" />
+    <Compile Include="Assets\SteamVR\Editor\SteamVR_RenderModelEditor.cs" />
+    <Compile Include="Assets\SteamVR\Editor\SteamVR_Settings.cs" />
+    <Compile Include="Assets\SteamVR\Editor\SteamVR_SkyboxEditor.cs" />
+    <Compile Include="Assets\SteamVR\Editor\SteamVR_Update.cs" />
+    <Compile Include="Assets\VisualInteraction\Scripts\Editor\Inspectors\viAction_CallFunction_Inspector.cs" />
+    <Compile Include="Assets\VisualInteraction\Scripts\Editor\Inspectors\viAction_SetObject_Inspector.cs" />
+    <Compile Include="Assets\VisualInteraction\Scripts\Editor\Inspectors\viAction_SetValue_Inspector.cs" />
+    <Compile Include="Assets\VisualInteraction\Scripts\Editor\Inspectors\viAction_SetVariable_Inspector.cs" />
+    <Compile Include="Assets\VisualInteraction\Scripts\Editor\viAgent_Editor.cs" />
+    <Compile Include="Assets\VisualInteraction\Scripts\Editor\viEditor.cs" />
+    <Compile Include="Assets\VisualInteraction\Scripts\Editor\viInteractable_Editor.cs" />
+    <Compile Include="Assets\VisualInteraction\Scripts\Editor\viTrigger_CheckObjectEditor.cs" />
+    <Compile Include="Assets\VisualInteraction\Scripts\Editor\viTrigger_CheckVariableEditor.cs" />
+    <Compile Include="Assets\VisualInteraction\Scripts\Editor\viVariables_Editor.cs" />
+    <Compile Include="Assets\VisualInteraction\Shaders\Editor\StandardOutlinedShaderEditor.cs" />
+    <Compile Include="Assets\Wasabimole\ProceduralTree\Editor\ProceduralTreeEditor.cs" />
+    <Compile Include="Assets\Wasabimole\ProceduralTree\Editor\UpdateNotifications.cs" />
+    <Compile Include="Assets\WaterPlus\Scripts\Editor\MakeDLL\MiniEXR.cs" />
+    <Compile Include="Assets\WaterPlus\Scripts\Editor\MakeDLL\Noise.cs" />
+    <Compile Include="Assets\WaterPlus\Scripts\Editor\MakeDLL\WPHelper.cs" />
+    <Compile Include="Assets\WaterPlus\Scripts\Editor\MakeDLL\WPLightmapping.cs" />
+    <Compile Include="Assets\WaterPlus\Scripts\Editor\MakeDLL\WaterPlusEditorInternal.cs" />
+    <Compile Include="Assets\WaterPlus\Scripts\Editor\MakeDLL\WaterPlusXML.cs" />
+    <Compile Include="Assets\WaterPlus\Scripts\Editor\WaterPlus.cs" />
+    <Compile Include="Assets\iTween\PlayMaker\Editor\iTweenMoveToActionEditor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Bird Flocks\Bird Flock Readme.txt" />
+    <None Include="Assets\Bird Flocks\Butterfly African Monarch\Shaders\Normal-Diffuse-NoCull.shader" />
+    <None Include="Assets\Bird Flocks\C# Scripts\- IMPORTANT - Version Change Readme.txt" />
+    <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\ChromaticAberrationShader.shader" />
+    <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\DepthOfFieldDX11.shader" />
+    <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\DepthOfFieldScatter.shader" />
+    <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\SeparableBlur.shader" />
+    <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\VignettingShader.shader" />
+    <None Include="Assets\EasyTouchBundle\EasyTouch\How to migrate from EasyTouch 4.X.txt" />
+    <None Include="Assets\EasyTouchBundle\EasyTouch\RealseNotes.txt" />
+    <None Include="Assets\EasyTouchBundle\EasyTouch\_Documentation\How to migrate from EasyTouch 4.X.txt" />
+    <None Include="Assets\EasyTouchBundle\EasyTouchControls\Documentation\Version 2.0.txt" />
+    <None Include="Assets\EasyTouchBundle\EasyTouchControls\Issues in button behavior (MAC).txt" />
+    <None Include="Assets\EasyTouchBundle\EasyTouchControls\ReleaseNotes.txt" />
+    <None Include="Assets\EasyTouchBundle\Readme.txt" />
+    <None Include="Assets\Farmers_Market_Gourmet_Pack\UAS_FMGP_Readme.txt" />
+    <None Include="Assets\Gamelogic\Plugins\Common\Datastructures\BinaryHeap\BinaryHeapLincense.txt" />
+    <None Include="Assets\Gamelogic\Plugins\Common\Datastructures\KDTree\KDTreeLicense.txt" />
+    <None Include="Assets\Gamelogic\Resources\Words\Dictionaries\enable1.txt" />
+    <None Include="Assets\Gamelogic\Resources\Words\Dictionaries\ospd.txt" />
+    <None Include="Assets\GazeControl\Before You Start.txt" />
+    <None Include="Assets\JMO Assets\!JMO Assets Readme.txt" />
+    <None Include="Assets\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
+    <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX3 Readme.txt" />
+    <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Invert.shader" />
+    <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
+    <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
+    <None Include="Assets\Jigsaw\-Read-Me-.txt" />
+    <None Include="Assets\Jigsaw\Materials\shaderGrayColored.shader" />
+    <None Include="Assets\Jigsaw\Materials\shaderTransparentGrayColored.shader" />
+    <None Include="Assets\PlayMaker\Editor\Install\readme.txt" />
+    <None Include="Assets\PlayMaker\Readme.txt" />
+    <None Include="Assets\PlayMaker\Resources\PlayMakerAssemblies.txt" />
+    <None Include="Assets\PlayMaker\Templates\readme.txt" />
+    <None Include="Assets\PlayMaker\Versions\readme.txt" />
+    <None Include="Assets\SimpleSelect\readme.txt" />
+    <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+    <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+    <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+    <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+    <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+    <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+    <None Include="Assets\Standard Assets\Water\Water\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_Blit.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_BlitFlip.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_HiddenArea.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_Overlay.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
+    <None Include="Assets\SteamVR\readme.txt" />
+    <None Include="Assets\VisualInteraction\DemoScenes\Standard Assets\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\VisualInteraction\InteractionObjects\SimpleIndustrial\Materials\Impact Label Licence.txt" />
+    <None Include="Assets\VisualInteraction\Shaders\Standard (Outlined).shader" />
+    <None Include="Assets\Wasabimole\ProceduralTree\Readme.txt" />
+    <None Include="Assets\WaterPlus\Shaders\WaterPlusInclude.cginc" />
+    <None Include="Assets\WaterPlus\Shaders\WaterPlus_Desktop.shader" />
+    <None Include="Assets\WaterPlus\Shaders\WaterPlus_Desktop_Lite.shader" />
+    <None Include="Assets\WaterPlus\Shaders\WaterPlus_Desktop_Lite_Transparent.shader" />
+    <None Include="Assets\WaterPlus\Shaders\WaterPlus_Desktop_Shadows.shader" />
+    <None Include="Assets\WaterPlus\Shaders\WaterPlus_Mobile.shader" />
+    <None Include="Assets\WaterPlus\Shaders\WaterPlus_Mobile_HQ.shader" />
+    <None Include="Assets\WaterPlus\Shaders\WaterPlus_Mobile_HQ_VertColor.shader" />
+    <None Include="Assets\WaterPlus\Shaders\WaterPlus_Mobile_Lite.shader" />
+    <None Include="Assets\WaterPlus\Shaders\WaterPlus_Mobile_NoSpec.shader" />
+    <None Include="Assets\WaterPlus\Shaders\WaterPlus_Mobile_Opaque.shader" />
+    <None Include="Assets\WaterPlus\Shaders\WaterPlus_Mobile_Shadows.shader" />
+    <None Include="Assets\WaterPlus\Terrains\Terrain_3Textures.shader" />
+    <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>

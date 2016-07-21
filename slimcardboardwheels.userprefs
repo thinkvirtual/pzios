@@ -1,0 +1,22 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/I2/MiniGames/Scripts/MiniGame_Reward.cs">
+    <Files>
+      <File FileName="Assets/_a1/SoundManager.cs" Line="16" Column="41" />
+      <File FileName="Assets/GazeControl/Scripts/VRInteractiveItem.cs" Line="35" Column="34" />
+      <File FileName="Assets/WordWheelLogic.cs" Line="132" Column="10" />
+      <File FileName="Assets/SimpleSelect/SelectionsObject.cs" Line="22" Column="3" />
+      <File FileName="Assets/GazeControl/Scripts/VREventSystem.cs" Line="322" Column="33" />
+      <File FileName="Assets/PlayMaker/Actions/PlaySound.cs" Line="8" Column="91" />
+      <File FileName="Assets/I2/MiniGames/Scripts/PrizeWheel_Reward.cs" Line="7" Column="17" />
+      <File FileName="Assets/I2/MiniGames/Scripts/MiniGame_Reward.cs" Line="19" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/seanbiggs/Documents/MagicLeap Resumes/slimcardboardwheels/Assets/GazeControl/Scripts/VRInteractiveItem.cs" line="35" column="34" />
+      <Breakpoint file="/Users/seanbiggs/Documents/MagicLeap Resumes/slimcardboardwheels/Assets/SimpleSelect/SelectionsObject.cs" line="15" column="8" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

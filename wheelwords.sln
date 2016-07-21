@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wheelwords.CSharp.Plugins", "wheelwords.CSharp.Plugins.csproj", "{FE661D3B-FFF9-449D-CF56-6A8603F4961C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wheelwords.CSharp", "wheelwords.CSharp.csproj", "{7216611F-D5F6-0541-0589-62CD6D086A6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wheelwords.CSharp.Editor", "wheelwords.CSharp.Editor.csproj", "{25A5AC45-1DF5-8AA5-2C65-2935C3110C3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE661D3B-FFF9-449D-CF56-6A8603F4961C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE661D3B-FFF9-449D-CF56-6A8603F4961C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE661D3B-FFF9-449D-CF56-6A8603F4961C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE661D3B-FFF9-449D-CF56-6A8603F4961C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7216611F-D5F6-0541-0589-62CD6D086A6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7216611F-D5F6-0541-0589-62CD6D086A6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7216611F-D5F6-0541-0589-62CD6D086A6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7216611F-D5F6-0541-0589-62CD6D086A6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25A5AC45-1DF5-8AA5-2C65-2935C3110C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25A5AC45-1DF5-8AA5-2C65-2935C3110C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25A5AC45-1DF5-8AA5-2C65-2935C3110C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25A5AC45-1DF5-8AA5-2C65-2935C3110C3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

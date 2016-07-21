@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wheelwordsgooglevr.CSharp.Plugins", "wheelwordsgooglevr.CSharp.Plugins.csproj", "{2A942703-98D8-1D93-7C48-1AD9C91C2F37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wheelwordsgooglevr.CSharp", "wheelwordsgooglevr.CSharp.csproj", "{8D4A6731-B97C-981D-6516-E96AAC394FA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wheelwordsgooglevr.CSharp.Editor", "wheelwordsgooglevr.CSharp.Editor.csproj", "{F1C9935A-74FC-4441-E19C-1A1E9D303D4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A942703-98D8-1D93-7C48-1AD9C91C2F37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A942703-98D8-1D93-7C48-1AD9C91C2F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A942703-98D8-1D93-7C48-1AD9C91C2F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A942703-98D8-1D93-7C48-1AD9C91C2F37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D4A6731-B97C-981D-6516-E96AAC394FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D4A6731-B97C-981D-6516-E96AAC394FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D4A6731-B97C-981D-6516-E96AAC394FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D4A6731-B97C-981D-6516-E96AAC394FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1C9935A-74FC-4441-E19C-1A1E9D303D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C9935A-74FC-4441-E19C-1A1E9D303D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C9935A-74FC-4441-E19C-1A1E9D303D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C9935A-74FC-4441-E19C-1A1E9D303D4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

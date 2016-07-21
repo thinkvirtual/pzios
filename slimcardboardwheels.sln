@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{DABFC3BA-F509-8A31-1BA8-DB85D56AAC18}") = "slimcardboardwheels", "Assembly-CSharp-firstpass.csproj", "{D7AC1881-184B-A457-1235-CA69A1C53053}"
+EndProject
+Project("{DABFC3BA-F509-8A31-1BA8-DB85D56AAC18}") = "slimcardboardwheels", "Assembly-CSharp.csproj", "{30374AF5-4707-F52C-B54F-1A8590082CE0}"
+EndProject
+Project("{DABFC3BA-F509-8A31-1BA8-DB85D56AAC18}") = "slimcardboardwheels", "Assembly-CSharp-Editor.csproj", "{8E72C34C-E626-332A-067E-32903C13E787}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7AC1881-184B-A457-1235-CA69A1C53053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7AC1881-184B-A457-1235-CA69A1C53053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7AC1881-184B-A457-1235-CA69A1C53053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7AC1881-184B-A457-1235-CA69A1C53053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30374AF5-4707-F52C-B54F-1A8590082CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30374AF5-4707-F52C-B54F-1A8590082CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30374AF5-4707-F52C-B54F-1A8590082CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30374AF5-4707-F52C-B54F-1A8590082CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E72C34C-E626-332A-067E-32903C13E787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E72C34C-E626-332A-067E-32903C13E787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E72C34C-E626-332A-067E-32903C13E787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E72C34C-E626-332A-067E-32903C13E787}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

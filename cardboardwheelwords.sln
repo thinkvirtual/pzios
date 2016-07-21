@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cardboardwheelwords.CSharp.Plugins", "cardboardwheelwords.CSharp.Plugins.csproj", "{88F83B8E-C7D3-9E58-EA41-E3DBC9DF7B7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cardboardwheelwords.CSharp", "cardboardwheelwords.CSharp.csproj", "{2A79E5C1-F91F-1B90-9306-2E7820C9A9BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cardboardwheelwords.CSharp.Editor", "cardboardwheelwords.CSharp.Editor.csproj", "{539E6D70-4994-C66C-E9AA-9D9D3C059B5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88F83B8E-C7D3-9E58-EA41-E3DBC9DF7B7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88F83B8E-C7D3-9E58-EA41-E3DBC9DF7B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88F83B8E-C7D3-9E58-EA41-E3DBC9DF7B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88F83B8E-C7D3-9E58-EA41-E3DBC9DF7B7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A79E5C1-F91F-1B90-9306-2E7820C9A9BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A79E5C1-F91F-1B90-9306-2E7820C9A9BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A79E5C1-F91F-1B90-9306-2E7820C9A9BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A79E5C1-F91F-1B90-9306-2E7820C9A9BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{539E6D70-4994-C66C-E9AA-9D9D3C059B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{539E6D70-4994-C66C-E9AA-9D9D3C059B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{539E6D70-4994-C66C-E9AA-9D9D3C059B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{539E6D70-4994-C66C-E9AA-9D9D3C059B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

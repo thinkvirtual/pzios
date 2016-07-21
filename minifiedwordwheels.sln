@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{293F95D3-E61B-0308-D85F-B0C533D638A6}") = "minifiedwordwheels", "Assembly-CSharp-firstpass.csproj", "{9538546C-2E38-8CB9-0D6F-83FF7CFB6B51}"
+EndProject
+Project("{293F95D3-E61B-0308-D85F-B0C533D638A6}") = "minifiedwordwheels", "Assembly-CSharp.csproj", "{1AB18357-23BB-5642-74A3-12C0F7E50E15}"
+EndProject
+Project("{293F95D3-E61B-0308-D85F-B0C533D638A6}") = "minifiedwordwheels", "Assembly-CSharp-Editor.csproj", "{CB17A4F9-76AC-F56E-F4C7-3FBE932674A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9538546C-2E38-8CB9-0D6F-83FF7CFB6B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9538546C-2E38-8CB9-0D6F-83FF7CFB6B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9538546C-2E38-8CB9-0D6F-83FF7CFB6B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9538546C-2E38-8CB9-0D6F-83FF7CFB6B51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AB18357-23BB-5642-74A3-12C0F7E50E15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AB18357-23BB-5642-74A3-12C0F7E50E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AB18357-23BB-5642-74A3-12C0F7E50E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AB18357-23BB-5642-74A3-12C0F7E50E15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB17A4F9-76AC-F56E-F4C7-3FBE932674A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB17A4F9-76AC-F56E-F4C7-3FBE932674A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB17A4F9-76AC-F56E-F4C7-3FBE932674A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB17A4F9-76AC-F56E-F4C7-3FBE932674A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
